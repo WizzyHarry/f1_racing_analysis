@@ -8,7 +8,7 @@
 (notabely Verstappen & Hamilton) are winning because of their talent, or their car? Lando Norris himself
 has even taken part of this, with subtle remarks towards Lewis Hamilton and his car. With situations
 like these arising, I've taken it upon myself to measure driver success in a different format. Putting emphasis
-on overtakes from Murray Walker's phrase: "catching is one thing, passing is another". </p>
+on overtakes from Murray Walker's phrase: "catching is one thing, passing is another"</br>. </p>
 
 
 ### Measuring Sucess
