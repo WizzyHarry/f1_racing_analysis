@@ -33,3 +33,5 @@ the race, these metrics can yield positive and negative points. </p>
 </ul>
 
 #### Point Values
+
+[Calculation Information](point_values/README.md)
