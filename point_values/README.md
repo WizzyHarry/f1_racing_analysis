@@ -1,0 +1,49 @@
+## Point Measurements 
+
+#### Fastest Lap
+<table>
+    <tr>
+        <th>Placement</th>
+        <th>Points</th>
+    </tr>
+    <tr>
+        <td>1st</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>2nd</td>
+        <td>4.5</td>
+    </tr>
+    <tr>
+        <td>3rd</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>4th</td>
+        <td>3.5</td>
+    </tr>
+    <tr>
+        <td>5th</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>6th</td>
+        <td>2.5</td>
+    </tr>
+    <tr>
+        <td>7th</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>8th</td>
+        <td>1.5</td>
+    </tr>
+    <tr>
+        <td>9th</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>10th</td>
+        <td>0.5</td>
+    </tr>
+<table>
