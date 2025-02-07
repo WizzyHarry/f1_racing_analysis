@@ -35,3 +35,33 @@ the race, these metrics can yield positive and negative points. </p>
 #### Point Values
 
 [Calculation Information](point_values/README.md)
+
+</b>
+
+## The Results
+
+<b> Left image: 2024 F1 season results. Right image: 2024 results based on point analysis. </b>
+
+<b> Individual race breakdowns below </b>
+
+<table>
+  <tr>
+    <td><img src="f1_season_results.PNG" alt="f1_drivers_champ" width="350"></td>
+    <td><img src="total_points.PNG" alt="f1_points_champ" width="350"></td>
+  </tr>
+</table>
+
+### Races
+
+<b> Shown table attributes include: </b>
+<ul>
+  <li>Driver Name</li>
+  <li>Overtake points: Typically the most influential category</li>
+  <li>Total points: Sum of a drivers points per race</li>
+  <li>Race result: Actual position driver finished in</li>
+  <li>Point result: Ranks drivers by number of points earned</li>
+</ul>
+
+### Bahrain
+
+![Bahrain](bahrain.PNG)
