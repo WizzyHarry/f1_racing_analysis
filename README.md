@@ -36,7 +36,13 @@ the race, these metrics can yield positive and negative points. </p>
 
 [Calculation Information](point_values/README.md)
 
-</b>
+#### Data Allocation & Citations
+<p> If you're interested in how I created these outputs, there's an .R file with my comments.
+Along with links and credit to the data I used for this study. </p>
+
+* readme goes here
+
+<p></br></p>
 
 ## The Results
 
@@ -60,6 +66,14 @@ the race, these metrics can yield positive and negative points. </p>
   <li>Total points: Sum of a drivers points per race</li>
   <li>Race result: Actual position driver finished in</li>
   <li>Point result: Ranks drivers by number of points earned</li>
+</ul>
+
+#### Note:
+<ul>
+  <li>If the overtakes field is blank, that driver had no statistical passing situations</li>
+  <li>If race result is marked as R: Driver retired</li>
+  <li>If race result is marked as D: Driver disqualified</li>
+  <li>This analysis covers the first 21 races of the season</li>
 </ul>
 
 ### Bahrain
