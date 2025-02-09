@@ -41,7 +41,7 @@ the race, these metrics can yield positive and negative points. </p>
 #### Data Allocation & Citations
 <p>Contains .R file that was used for parsing, and calculations used to generate final results. Along with links to data resources and citations.</p>
 
-* readme goes here
+[Data Resources](data/README.md)
 
 <p></br></p>
 
