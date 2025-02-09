@@ -36,4 +36,4 @@
 
 <b>API DB Relationship Diagram</b>
 
-![ergast_db_diagram](ergast_db.PNG)
+![Ergast_DB](ergast_db-1.png)
