@@ -52,8 +52,8 @@ Along with links and credit to the data I used for this study. </p>
 
 <table>
   <tr>
-    <td><img src="f1_season_results.PNG" alt="f1_drivers_champ" width="350"></td>
-    <td><img src="total_points.PNG" alt="f1_points_champ" width="350"></td>
+    <td><img src="race_db_images/f1_season_results.PNG" alt="f1_drivers_champ" width="350" height="500"></td>
+    <td><img src="race_db_images/new_total_points.PNG" alt="f1_points_champ" width="350" height = "500"></td>
   </tr>
 </table>
 
@@ -78,4 +78,65 @@ Along with links and credit to the data I used for this study. </p>
 
 ### Bahrain
 
-![Bahrain](bahrain.PNG)
+![Bahrain](race_db_images/bahrain.PNG)
+
+### Saudi Arabia
+
+![Saudi](race_db_images/Saudi_Arabia.PNG)
+
+### Australia
+![Australia](race_db_images/australia.PNG)
+
+### Japann
+![Japan](race_db_images/japanese.PNG)
+
+### China
+![China](race_db_images/china.PNG)
+
+### Miami
+![Miami](race_db_images/miami.PNG)
+
+### Emilia Romagna
+![Emilia](race_db_images/emilia.PNG)
+
+### Monaco
+![Monaco](race_db_images/monaco.PNG)
+
+### Canada
+![Canada](race_db_images/canada.PNG)
+
+### Spain
+![Spain](race_db_images/spain.PNG)
+
+### Austria
+![Austria](race_db_images/austrian.PNG)
+
+### Britian
+![Britian](race_db_images/british.PNG)
+
+### Hungary
+![Hungry](race_db_images/hungry.PNG)
+
+### Belgium
+![Belgium](race_db_images/belgian.PNG)
+
+### Netherlands
+![Netherlands](race_db_images/dutch.PNG)
+
+### Italy
+![Italy](race_db_images/italy.PNG)
+
+### Azerbaijan
+![Azerbaijan](race_db_images/azerbajan.PNG)
+
+### Singapore
+![Singapore](race_db_images/singapore.PNG)
+
+### United States(TX)
+![TX](race_db_images/ustx.PNG)
+
+### Mexico
+![Mexico](race_db_images/mexico.PNG)
+
+### Sao Paulo
+![Sao_Paulo](race_db_images/sao_paulo.PNG)
