@@ -10,8 +10,10 @@ has even taken part of this, with subtle remarks towards Lewis Hamilton and his 
 like these arising, I've taken it upon myself to measure driver success in a different format. Putting emphasis
 on overtakes from Murray Walker's phrase: "catching is one thing, passing is another".</br> </p>
 
+<p></br></p>
 
-### Measuring Sucess
+
+## Measuring Sucess
 
 <b> How it works </b>
 <p> Driver success is measured using a points system. Points are awarded based upon various metrics from
@@ -37,8 +39,7 @@ the race, these metrics can yield positive and negative points. </p>
 [Calculation Information](point_values/README.md)
 
 #### Data Allocation & Citations
-<p> If you're interested in how I created these outputs, there's an .R file with my comments.
-Along with links and credit to the data I used for this study. </p>
+<p>Contains .R file that was used for parsing, and calculations used to generate final results. Along with links to data resources and citations.</p>
 
 * readme goes here
 
@@ -52,8 +53,8 @@ Along with links and credit to the data I used for this study. </p>
 
 <table>
   <tr>
-    <td><img src="race_db_images/f1_season_results.PNG" alt="f1_drivers_champ" width="350" height="500"></td>
-    <td><img src="race_db_images/new_total_points.PNG" alt="f1_points_champ" width="350" height = "500"></td>
+    <td><img src="race_db_images/f1_season_results.PNG" alt="f1_drivers_champ" width="350" height="450"></td>
+    <td><img src="race_db_images/new_total_points.PNG" alt="f1_points_champ" width="350" height = "450"></td>
   </tr>
 </table>
 
