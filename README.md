@@ -39,7 +39,8 @@ the race, these metrics can yield positive and negative points. </p>
 [Calculation Information](point_values/README.md)
 
 #### Data Allocation & Citations
-<p>Contains .R file that was used for parsing, and calculations used to generate final results. Along with links to data resources and citations.</p>
+<p>Contains .R file that was used for parsing, and calculations used to generate final results. Details
+of steps taken in Pre-Processing, along with links to data resources and citations.</p>
 
 [Data Resources](data/README.md)
 
@@ -49,7 +50,7 @@ the race, these metrics can yield positive and negative points. </p>
 
 <b> Left image: 2024 F1 season results. Right image: 2024 results based on point analysis. </b>
 
-<b> Individual race breakdowns below </b>
+<b> Individual race breakdowns can be found below </b>
 
 <table>
   <tr>
@@ -57,6 +58,14 @@ the race, these metrics can yield positive and negative points. </p>
     <td><img src="race_db_images/new_total_points.PNG" alt="f1_points_champ" width="350" height = "450"></td>
   </tr>
 </table>
+
+#### Offical 2024 F1 Season Driver Points
+
+![official points](race_db_images/real_points.PNG)
+
+#### Data Analysis 2024 F1 Season Driver Points
+
+![unofficial points](race_db_images/analysis_points.PNG)
 
 ### Races
 
@@ -72,8 +81,10 @@ the race, these metrics can yield positive and negative points. </p>
 #### Note:
 <ul>
   <li>If the overtakes field is blank, that driver had no statistical passing situations</li>
+  <li>Overtakes are valued differently, the higher the position the more valuable the position</li>
   <li>If race result is marked as R: Driver retired</li>
   <li>If race result is marked as D: Driver disqualified</li>
+  <li>In final points tally, R'd & D'd drivers points count as 0 instead of -25</li>
   <li>This analysis covers the first 21 races of the season</li>
 </ul>
 

@@ -1,8 +1,9 @@
 rm(list = ls(envir = globalenv()), envir = globalenv());
 if(!is.null(dev.list())) dev.off(); gc(); cat("\014")
 
-setwd("C:/Users/sirsh/Desktop/f1 data")
+# setwd("C:/Users/sirsh/Desktop/f1 data")
 
+setwd("C:/Users/sirsh/github/portfolio/f1_data_analysis/data")
 # reading data
 pit_stops <- read.csv("pit_stops.csv", header = TRUE, sep = ",")
 lap_times <- read.csv("lap_times.csv", header = TRUE, sep = ",")
@@ -267,36 +268,6 @@ is.null(overtakes_points)
 
 
 
-
-
-# ----------------------------------------------------------------
-# merged table with allocated points
-# I didn't know what I was doing, this is all bs
-big_join <- race_info %>%
-  left_join(fastest_lap_points, by = c("driverId", "raceId")) %>%
-  left_join(qualifying_points, by = c("driverId", "raceId")) %>%
-  left_join(pit_stop_points, by = c("driverId", "raceId")) %>%
-  left_join(avg_laps_points, by = c("driverId", "raceId")) %>%
-  left_join(laps_led_points, by = c("driverId", "raceId")) %>%
-  left_join(overtakes_points, by = c("driverId", "raceId"))
-
-# more bs
-big_join <- big_join %>%
-  rowwise() %>%
-  mutate(total_points = sum(c_across(ends_with("points")))) %>%
-  ungroup()
-
-# more bs
-final_points <- big_join %>%
-  group_by(driverId, raceId) %>%
-  summarise(total_points = sum(total_points))
-
-# may be useful
-  mutate(
-    points = coalesce(points, 0),
-    points = if_else(positionText == "R", 0, points),
-    total_points = rowSums(across(starts_with("points")), na.rm = TRUE)
-  )
 # ----------------------------------------------------------------
   
   
@@ -345,7 +316,7 @@ final_results <- inter_join %>%
   rowwise() %>%
   mutate(total_points = sum(c_across(starts_with("points_")), na.rm = TRUE)) %>%
   ungroup() %>%
-  mutate(total_points = if_else(!is.na(positionText) & positionText == "R", -25, total_points)) %>%
+  mutate(total_points = if_else(!is.na(positionText) & positionText == "R", -15, total_points)) %>%
   arrange(raceId, desc(total_points)) %>%
   filter(!is.na(positionText))
 
@@ -369,7 +340,7 @@ datatable(photo,
 
 year_points <- final_results %>%
   select(driverId, forename, surname, total_points) %>%
-  mutate(total_points = if_else(total_points == -25, 0, total_points)) %>%
+  mutate(total_points = if_else(total_points == -15, 0, total_points)) %>%
   # replace retired values for 0
   group_by(driverId) %>%
   mutate(total_points = sum(total_points)) %>%
@@ -391,6 +362,7 @@ datatable(year_points,
 
 # data filtration for setting up unique values, such as total pit stops, avg lap
 # ------------------------------------------------------------------------------
+# Pre Processing
 unique_race_ids <- unique(my_data$raceId)
 print(unique_race_ids)
 
