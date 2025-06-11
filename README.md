@@ -48,16 +48,7 @@ of steps taken in Pre-Processing, along with links to data resources and citatio
 
 ## The Results
 
-<b> Left image: 2024 F1 season results. Right image: 2024 results based on point analysis. </b>
-
-<b> Individual race breakdowns can be found below </b>
-
-<table>
-  <tr>
-    <td><img src="race_db_images/f1_season_results.PNG" alt="f1_drivers_champ" width="350" height="450"></td>
-    <td><img src="race_db_images/new_total_points.PNG" alt="f1_points_champ" width="350" height = "450"></td>
-  </tr>
-</table>
+<b>Individual race breakdowns can be found below.</b>
 
 #### Offical 2024 F1 Season Driver Points
 
